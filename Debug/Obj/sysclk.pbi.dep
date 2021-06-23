@@ -1,0 +1,4 @@
+sysclk.pbi: \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\common\services\clock\sam3s\sysclk.c \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\common\services\clock\sam3s\sysclk.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\common\services\clock\sam3s\osc.h
