@@ -20,10 +20,17 @@ rule browsedata
 
 
 #Build steps
+build init.pbi : index init.xcl
+build sysclk.pbi : index sysclk.xcl
 build adc.pbi : index adc.xcl
+build pmc.pbi : index pmc.xcl
+build sleep.pbi : index sleep.xcl
 build uart.pbi : index uart.xcl
 build main.pbi : index main.xcl
-build concept.pbd : link adc.pbi uart.pbi main.pbi
+build concept_part0.pbi : link init.pbi sysclk.pbi adc.pbi
+build concept_part1.pbi : link pmc.pbi sleep.pbi uart.pbi
+build concept_part2.pbi : link main.pbi
+build concept.pbd : link concept_part0.pbi concept_part1.pbi concept_part2.pbi
 build concept.pbw : browsedata concept.pbd
 
 
