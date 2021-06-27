@@ -4,6 +4,19 @@
 // From module: Common SAM compiler driver
 #include <compiler.h>
 
+// TODO
+/** Board oscillator settings */
+#define BOARD_FREQ_SLCK_XTAL        (32768U)
+#define BOARD_FREQ_SLCK_BYPASS      (32768U)
+#define BOARD_FREQ_MAINCK_XTAL      (12000000U)
+#define BOARD_FREQ_MAINCK_BYPASS    (12000000U)
+
+/** Master clock frequency */
+#define BOARD_MCK                   CHIP_FREQ_CPU_MAX
+
+/** board main clock xtal startup time */
+#define BOARD_OSC_STARTUP_US        15625
+
 //#include <adc.h>
 
 // From module: Delay routines
@@ -35,17 +48,6 @@
 
 // From module: Power Management
 //#include <bpm.h>
-
-// From module: SAM4L startup code
-//#include <exceptions.h>
-//#include <system_sam4l.h>
-
-// From module: SAM4L-EK LED support enabled
-//#include <led.h>
-
-// From module: Sleep manager - SAM4L implementation
-//#include <sam4l/sleepmgr.h>
-//#include <sleepmgr.h>
 
 // From module: Standard serial I/O (stdio) - SAM implementation
 //#include <stdio_serial.h>

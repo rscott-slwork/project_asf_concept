@@ -3044,10 +3044,106 @@
         </group>
     </group>
     <group>
-        <name>config</name>
-        <file>
-            <name>$PROJ_DIR$\config\pio_config.c</name>
-        </file>
+        <name>IPC</name>
+        <group>
+            <name>config</name>
+            <file>
+                <name>$PROJ_DIR$\config\pio_config.c</name>
+            </file>
+        </group>
+        <group>
+            <name>modules</name>
+        </group>
+        <group>
+            <name>resources</name>
+            <group>
+                <name>screens</name>
+                <file>
+                    <name>$PROJ_DIR$\..\GccBoardProject2 2\src\screens\alarm_elements.c</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\GccBoardProject2 2\src\screens\ascii_codes.c</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\GccBoardProject2 2\src\screens\battery_screen.c</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\GccBoardProject2 2\src\screens\LegacyScreens.c</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\GccBoardProject2 2\src\screens\screen_alarm.c</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\GccBoardProject2 2\src\screens\screen_battery_charging.c</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\GccBoardProject2 2\src\screens\screen_calibration.c</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\GccBoardProject2 2\src\screens\screen_Confirm_level_of_suction.c</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\GccBoardProject2 2\src\screens\screen_Confirm_units_of_measure.c</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\GccBoardProject2 2\src\screens\screen_dummy.c</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\GccBoardProject2 2\src\screens\screen_Flow_vs_Time_Graph.c</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\GccBoardProject2 2\src\screens\screen_language.c</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\GccBoardProject2 2\src\screens\screen_need_filter_change.c</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\GccBoardProject2 2\src\screens\screen_New_patient.c</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\GccBoardProject2 2\src\screens\screen_No_Air_Leak_Indicator.c</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\GccBoardProject2 2\src\screens\screen_power_down.c</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\GccBoardProject2 2\src\screens\screen_request_filter_change.c</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\GccBoardProject2 2\src\screens\screen_Select_Units.c</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\GccBoardProject2 2\src\screens\screen_set_date_time.c</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\GccBoardProject2 2\src\screens\screen_Set_suction_level.c</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\GccBoardProject2 2\src\screens\screen_shutdown_filter.c</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\GccBoardProject2 2\src\screens\screen_Startscreen_and_Selftest.c</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\GccBoardProject2 2\src\screens\screen_Suction_level_and_Flow.c</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\GccBoardProject2 2\src\screens\screen_Suction_level_and_time.c</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\GccBoardProject2 2\src\screens\screen_usb.c</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\GccBoardProject2 2\src\screens\symbols.c</name>
+                </file>
+            </group>
+            <group>
+                <name>sounds</name>
+                <file>
+                    <name>$PROJ_DIR$\..\GccBoardProject2 2\src\sounds\sound_vectors.c</name>
+                </file>
+            </group>
+        </group>
     </group>
     <file>
         <name>$PROJ_DIR$\asf.h</name>
