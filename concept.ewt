@@ -2919,6 +2919,21 @@
                 </file>
             </group>
             <group>
+                <name>pio</name>
+                <file>
+                    <name>$PROJ_DIR$\xdk-asf-3.50.0\sam\drivers\pio\pio.c</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\xdk-asf-3.50.0\sam\drivers\pio\pio.h</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\xdk-asf-3.50.0\sam\drivers\pio\pio_handler.c</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\xdk-asf-3.50.0\sam\drivers\pio\pio_handler.h</name>
+                </file>
+            </group>
+            <group>
                 <name>pmc</name>
                 <file>
                     <name>$PROJ_DIR$\..\project_asf_concept 2\xdk-asf-3.50.0\sam\drivers\pmc\pmc.c</name>
@@ -2931,6 +2946,15 @@
                 </file>
                 <file>
                     <name>$PROJ_DIR$\..\project_asf_concept 2\xdk-asf-3.50.0\sam\drivers\pmc\sleep.h</name>
+                </file>
+            </group>
+            <group>
+                <name>spi</name>
+                <file>
+                    <name>$PROJ_DIR$\xdk-asf-3.50.0\sam\drivers\spi\spi.c</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\xdk-asf-3.50.0\sam\drivers\spi\spi.h</name>
                 </file>
             </group>
             <group>
@@ -2953,14 +2977,29 @@
                         <name>sam3s</name>
                         <group>
                             <name>include</name>
+                            <group>
+                                <name>component</name>
+                            </group>
+                            <group>
+                                <name>pio</name>
+                                <file>
+                                    <name>$PROJ_DIR$\xdk-asf-3.50.0\sam\utils\cmsis\sam3s\include\pio\pio_sam3s4c.h</name>
+                                </file>
+                            </group>
                             <file>
                                 <name>$PROJ_DIR$\xdk-asf-3.50.0\sam\utils\cmsis\sam3s\include\sam3s.h</name>
+                            </file>
+                            <file>
+                                <name>$PROJ_DIR$\xdk-asf-3.50.0\sam\utils\cmsis\sam3s\include\sam3s4c.h</name>
                             </file>
                         </group>
                         <group>
                             <name>source</name>
                             <group>
                                 <name>templates</name>
+                                <file>
+                                    <name>$PROJ_DIR$\xdk-asf-3.50.0\sam\utils\cmsis\sam3s\source\templates\system_sam3s.c</name>
+                                </file>
                                 <file>
                                     <name>$PROJ_DIR$\xdk-asf-3.50.0\sam\utils\cmsis\sam3s\source\templates\system_sam3s.h</name>
                                 </file>
@@ -2986,12 +3025,6 @@
             </group>
         </group>
         <group>
-            <name>sam3s</name>
-            <group>
-                <name>Include</name>
-            </group>
-        </group>
-        <group>
             <name>thirdparty</name>
             <group>
                 <name>CMSIS</name>
@@ -3009,6 +3042,12 @@
                 <name>$PROJ_DIR$\xdk-asf-3.50.0\sam\utils\compiler.h</name>
             </file>
         </group>
+    </group>
+    <group>
+        <name>config</name>
+        <file>
+            <name>$PROJ_DIR$\config\pio_config.c</name>
+        </file>
     </group>
     <file>
         <name>$PROJ_DIR$\asf.h</name>

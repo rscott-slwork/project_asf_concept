@@ -16,7 +16,7 @@
 //#include <gpio.h>
 
 // From module: Generic board support
-//#include <board.h>
+#include <board.h>
 
 // From module: IOPORT - General purpose I/O service
 //#include <ioport.h>
@@ -61,5 +61,9 @@
 
 // From module: WDT - Watchdog Timer
 //#include <wdt_sam4l.h>
+
+// From module: PIO
+#include <pio.h>
+#include <sam3s4c.h>
 
 #endif // ASF_H

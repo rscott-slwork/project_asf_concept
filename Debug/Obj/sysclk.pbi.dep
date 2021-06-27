@@ -22,7 +22,7 @@ sysclk.pbi: \
   \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\preprocessor/preprocessor.h \
   \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\header_files\io.h \
   \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\sam3s\include\sam3s.h \
-  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\sam3s\include/sam3s2c.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\sam3s\include/sam3s4c.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\stdint.h \
   \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\thirdparty\CMSIS\Include\core_cm3.h \
   \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\thirdparty\CMSIS\Include/cmsis_version.h \
@@ -87,7 +87,7 @@ sysclk.pbi: \
   \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\sam3s\include/instance/instance_wdt.h \
   \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\sam3s\include/instance/instance_rtc.h \
   \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\sam3s\include/instance/instance_gpbr.h \
-  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\sam3s\include/pio/pio_sam3s2c.h \
+  \\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\utils\cmsis\sam3s\include/pio/pio_sam3s4c.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\stdio.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\stdbool.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.4\arm\inc\c\stdlib.h \

@@ -39,6 +39,12 @@ adc.pbi
 -I
 \\Mac\Home\Desktop\project_asf_concept 2\xdk-asf-3.50.0\sam\drivers\pmc\
 -I
+\\Mac\Home\Desktop\project_asf_concept 2\xdk-asf-3.50.0\sam\utils\cmsis\sam3x\include\
+-I
+\\Mac\Home\Desktop\project_asf_concept\config\
+-I
+\\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\pio\
+-I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\inc\c
@@ -70,6 +76,12 @@ C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\inc\c
 \\Mac\Home\Desktop\project_asf_concept 2\xdk-asf-3.50.0\common\boards\user_board\board_config
 -I
 \\Mac\Home\Desktop\project_asf_concept 2\xdk-asf-3.50.0\sam\drivers\pmc
+-I
+\\Mac\Home\Desktop\project_asf_concept 2\xdk-asf-3.50.0\sam\utils\cmsis\sam3x\include
+-I
+\\Mac\Home\Desktop\project_asf_concept\config
+-I
+\\Mac\Home\Desktop\project_asf_concept\xdk-asf-3.50.0\sam\drivers\pio
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0
@@ -345,7 +357,7 @@ C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\inc\c
 -D__EDG_FLOAT80_ENABLING_POSSIBLE=0
 -D__EDG_FLOAT128_ENABLING_POSSIBLE=0
 -D__EDG_INT128_EXTENSIONS_ALLOWED=0
--D__SAM3S2C__=1
+-D__SAM3S4C__=1
 -DBOARD=USER_BOARD
 -D_DLIB_CONFIG_FILE_HEADER_NAME="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\inc\c\DLib_Config_Normal.h"
 -D_DLIB_CONFIG_FILE_STRING="C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.4\\arm\\inc\\c\\DLib_Config_Normal.h"
