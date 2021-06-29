@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\common\bin\cspybat" -f "\\Mac\Home\Desktop\project_asf_concept\settings\concept.Debug.general.xcl" --backend -f "\\Mac\Home\Desktop\project_asf_concept\settings\concept.Debug.driver.xcl" 
+"C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "\\Mac\Home\Desktop\project_asf_concept\settings\concept.Debug.general.xcl" --backend -f "\\Mac\Home\Desktop\project_asf_concept\settings\concept.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\common\bin\cspybat" -f "\\Mac\Home\Desktop\project_asf_concept\settings\concept.Debug.general.xcl" "--debug_file=%~1" --backend -f "\\Mac\Home\Desktop\project_asf_concept\settings\concept.Debug.driver.xcl" 
+"C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "\\Mac\Home\Desktop\project_asf_concept\settings\concept.Debug.general.xcl" "--debug_file=%~1" --backend -f "\\Mac\Home\Desktop\project_asf_concept\settings\concept.Debug.driver.xcl" 
 
 @echo off 
 :end

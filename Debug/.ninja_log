@@ -1,0 +1,14 @@
+# ninja log v5
+50	1788	6465849522696034	//Mac/Home/Desktop/project_asf_concept/Debug/Obj/ASF/common/boards/user_board/init.o	e62bc26f025b1759
+67	1902	6465849522698202	//Mac/Home/Desktop/project_asf_concept/Debug/Obj/ASF/common/services/clock/sam3s/sysclk.o	b109ee863a29d9c1
+59	1986	6465849523864159	//Mac/Home/Desktop/project_asf_concept/Debug/Obj/ASF/drivers/adc/adc.o	ffd524f1fc9d5feb
+1890	2875	6465849534781165	//Mac/Home/Desktop/project_asf_concept/Debug/Obj/ASF/drivers/pio/pio_handler.o	1a0c11ff05d18ab2
+1976	3028	6465849535375508	//Mac/Home/Desktop/project_asf_concept/Debug/Obj/ASF/drivers/pmc/sleep.o	2b737f79ef061961
+2070	3134	6465849535896230	//Mac/Home/Desktop/project_asf_concept/Debug/Obj/ASF/drivers/spi/spi.o	56cf32da5ad289ca
+3223	4179	6465849547903981	//Mac/Home/Desktop/project_asf_concept/Debug/Obj/main.o	2744281ec4e584ee
+2993	4295	6465849548689111	//Mac/Home/Desktop/project_asf_concept/Debug/Obj/ASF/drivers/pio/pio.o	d38716b62d2b2a8f
+3121	4405	6465849548915773	//Mac/Home/Desktop/project_asf_concept/Debug/Obj/ASF/drivers/pmc/pmc.o	d3f2e336f059bd31
+4391	5335	6465849559384467	//Mac/Home/Desktop/project_asf_concept/Debug/Obj/ASF/drivers/uart/uart.o	61bcb0315f6cee0
+4485	5451	6465849559424546	//Mac/Home/Desktop/project_asf_concept/Debug/Obj/ASF/sam/utils/cmsis/sam3s/source/templates/system_sam3s.o	faaddaf12400e82d
+4262	5561	6465849559939875	//Mac/Home/Desktop/project_asf_concept/Debug/Obj/IPC/config/pio_config.o	4afa3747cffe7679
+5643	5987	6465849566035360	//Mac/Home/Desktop/project_asf_concept/Debug/Exe/concept.out	b0c8b7c12501c2e4

@@ -5,195 +5,54 @@
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$PROJ_DIR$\xdk-asf-3.50.0\sam\drivers\adc\adc.c</file>
-            <file>$PROJ_DIR$\main.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\concept.pbd</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\adc.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\adc.xcl</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.xcl</file>
-            <file>$PROJ_DIR$\Debug\Exe\concept.out</file>
-            <file>$PROJ_DIR$\Debug\Obj\spi.o</file>
-            <file>$PROJ_DIR$\xdk-asf-3.50.0\sam\drivers\spi\spi.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\spi.xcl</file>
-            <file>$PROJ_DIR$\xdk-asf-3.50.0\sam\drivers\pio\pio_handler.c</file>
-            <file>$PROJ_DIR$\xdk-asf-3.50.0\sam\drivers\pio\pio.c</file>
-            <file>$PROJ_DIR$\xdk-asf-3.50.0\sam\utils\cmsis\sam3s\source\templates\system_sam3s.c</file>
-            <file>$PROJ_DIR$\..\project_asf_concept 2\xdk-asf-3.50.0\sam\drivers\pmc\sleep.c</file>
-            <file>$PROJ_DIR$\..\project_asf_concept 2\xdk-asf-3.50.0\sam\drivers\pmc\pmc.c</file>
-            <file>$PROJ_DIR$\asf.h</file>
-            <file>$PROJ_DIR$\xdk-asf-3.50.0\common\services\clock\sam3s\sysclk.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\system_sam3s.xcl</file>
-            <file>$PROJ_DIR$\Debug\Obj\system_sam3s.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\uart.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\uart.xcl</file>
-            <file>$PROJ_DIR$\Debug\Obj\sysclk.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\sysclk.xcl</file>
-            <file>$PROJ_DIR$\Debug\Obj\sleep.xcl</file>
-            <file>$PROJ_DIR$\Debug\Obj\sleep.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\pmc.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\pmc.xcl</file>
-            <file>$PROJ_DIR$\Debug\Obj\pio_handler.xcl</file>
-            <file>$PROJ_DIR$\Debug\Obj\pio.xcl</file>
-            <file>$PROJ_DIR$\Debug\Obj\pio.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\pio_handler.o</file>
-            <file>$PROJ_DIR$\..\..\Downloads\xdk-asf-3.39.0\sam\drivers\uart\uart.c</file>
-            <file>$PROJ_DIR$\config\pio_config.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\init.xcl</file>
-            <file>$PROJ_DIR$\Debug\Obj\init.o</file>
             <file>$PROJ_DIR$\..\project_asf_concept 2\xdk-asf-3.50.0\common\boards\user_board\init.c</file>
+            <file>$PROJ_DIR$\..\project_asf_concept 2\xdk-asf-3.50.0\common\boards\user_board\user_board.h</file>
+            <file>$PROJ_DIR$\xdk-asf-3.50.0\sam\utils\cmsis\sam3s\source\templates\system_sam3s.c</file>
+            <file>$PROJ_DIR$\..\project_asf_concept 2\xdk-asf-3.50.0\sam\drivers\pmc\pmc.c</file>
+            <file>$PROJ_DIR$\xdk-asf-3.50.0\sam\drivers\pio\pio_handler.c</file>
+            <file>$PROJ_DIR$\xdk-asf-3.50.0\sam\drivers\spi\spi.c</file>
+            <file>$PROJ_DIR$\xdk-asf-3.50.0\sam\drivers\adc\adc.c</file>
+            <file>$PROJ_DIR$\..\..\Downloads\xdk-asf-3.39.0\sam\drivers\uart\uart.c</file>
+            <file>$PROJ_DIR$\xdk-asf-3.50.0\common\services\clock\sam3s\sysclk.c</file>
+            <file>$PROJ_DIR$\xdk-asf-3.50.0\sam\drivers\pio\pio.c</file>
+            <file>$PROJ_DIR$\..\project_asf_concept 2\xdk-asf-3.50.0\sam\drivers\pmc\sleep.c</file>
+            <file>$PROJ_DIR$\xdk-asf-3.50.0\common\boards\board.h</file>
+            <file>$PROJ_DIR$\config\pio_config.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_sam3s.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\init.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\uart.o</file>
+            <file>$PROJ_DIR$\main.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\pio_handler.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\pmc.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\pio_handler.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\adc.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\adc.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\sleep.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\init.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\pio.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_sam3s.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\pmc.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\spi.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\pio.o</file>
+            <file>$PROJ_DIR$\Debug\Exe\concept.out</file>
+            <file>$PROJ_DIR$\Debug\Obj\sysclk.xcl</file>
             <file>$PROJ_DIR$\Debug\Obj\pio_config.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\spi.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\concept.pbd</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\uart.xcl</file>
+            <file>$PROJ_DIR$\asf.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\sysclk.o</file>
             <file>$PROJ_DIR$\Debug\Obj\pio_config.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\sleep.xcl</file>
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 7</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\xdk-asf-3.50.0\sam\drivers\adc\adc.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 4</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 5</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\main.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 3</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 6</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\xdk-asf-3.50.0\sam\drivers\spi\spi.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 8</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 10</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\xdk-asf-3.50.0\sam\drivers\pio\pio_handler.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 31</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 28</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\xdk-asf-3.50.0\sam\drivers\pio\pio.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
                     <file> 30</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 29</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\xdk-asf-3.50.0\sam\utils\cmsis\sam3s\source\templates\system_sam3s.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 19</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 18</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\project_asf_concept 2\xdk-asf-3.50.0\sam\drivers\pmc\sleep.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 25</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 24</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\project_asf_concept 2\xdk-asf-3.50.0\sam\drivers\pmc\pmc.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 26</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 27</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\xdk-asf-3.50.0\common\services\clock\sam3s\sysclk.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 22</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 23</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\..\Downloads\xdk-asf-3.39.0\sam\drivers\uart\uart.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 20</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 21</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\config\pio_config.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 37</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 38</file>
                 </tool>
             </outputs>
         </file>
@@ -202,11 +61,154 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 35</file>
+                    <file> 14</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 34</file>
+                    <file> 23</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\xdk-asf-3.50.0\sam\utils\cmsis\sam3s\source\templates\system_sam3s.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 25</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 13</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\project_asf_concept 2\xdk-asf-3.50.0\sam\drivers\pmc\pmc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 26</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\xdk-asf-3.50.0\sam\drivers\pio\pio_handler.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 19</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 17</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\xdk-asf-3.50.0\sam\drivers\spi\spi.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 33</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 28</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\xdk-asf-3.50.0\sam\drivers\adc\adc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 21</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 20</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\..\Downloads\xdk-asf-3.39.0\sam\drivers\uart\uart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 15</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 36</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\xdk-asf-3.50.0\common\services\clock\sam3s\sysclk.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 38</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 31</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\xdk-asf-3.50.0\sam\drivers\pio\pio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 29</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 24</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\project_asf_concept 2\xdk-asf-3.50.0\sam\drivers\pmc\sleep.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 22</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 40</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\config\pio_config.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 32</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 39</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 27</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 35</file>
                 </tool>
             </outputs>
         </file>

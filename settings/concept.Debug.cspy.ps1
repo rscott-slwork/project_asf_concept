@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\common\bin\cspybat" -f "\\Mac\Home\Desktop\project_asf_concept\settings\concept.Debug.general.xcl" --backend -f "\\Mac\Home\Desktop\project_asf_concept\settings\concept.Debug.driver.xcl" 
+& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "\\Mac\Home\Desktop\project_asf_concept\settings\concept.Debug.general.xcl" --backend -f "\\Mac\Home\Desktop\project_asf_concept\settings\concept.Debug.driver.xcl" 
 }
 else
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\common\bin\cspybat" -f "\\Mac\Home\Desktop\project_asf_concept\settings\concept.Debug.general.xcl" --debug_file=$debugfile --backend -f "\\Mac\Home\Desktop\project_asf_concept\settings\concept.Debug.driver.xcl" 
+& "C:\Program Files\IAR Systems\Embedded Workbench 9.0\common\bin\cspybat" -f "\\Mac\Home\Desktop\project_asf_concept\settings\concept.Debug.general.xcl" --debug_file=$debugfile --backend -f "\\Mac\Home\Desktop\project_asf_concept\settings\concept.Debug.driver.xcl" 
 }
